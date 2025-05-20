@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1053977602705",
+    "firebase_url": "https://mamamonitor-bc144-default-rtdb.firebaseio.com",
+    "project_id": "mamamonitor-bc144",
+    "storage_bucket": "mamamonitor-bc144.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1053977602705:android:3970d072fa04c38f33ad30",
+        "android_client_info": {
+          "package_name": "com.example.mama_monitor_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwvapbtXySCt444xgs875lPgUJohHZ8io"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
