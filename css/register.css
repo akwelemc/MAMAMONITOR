@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+section .imgBx {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+section .imgBx img {
+  max-width: 80%;
+  height: auto;
+  object-fit: contain;
+}
+
+section .contentBx {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+}
+
+section .formBx {
+  width: 100%;
+  max-width: 400px;
+}
+
+section .formBx h2 {
+  color: #607d8b;
+  font-weight: 600;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  border-bottom: 4px solid #ff3e95;
+  display: inline-block;
+  letter-spacing: 1px;
+}
+
+.inputBx {
+  margin-bottom: 20px;
+}
+
+.inputBx span {
+  font-size: 16px;
+  margin-bottom: 5px;
+  display: inline-block;
+  color: #607d8b;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.inputBx input,
+.inputBx select {
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid #607d8b;
+  background: transparent;
+  color: #607d8b;
+  font-size: 16px;
+  border-radius: 30px;
+  outline: none;
+}
+
+.inputBx button[type="submit"] {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #ff3e95;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.inputBx button[type="submit"]:hover {
+  background-color: #ff3e95;
+}
+
+.inputBx p {
+  color: #607d8b;
+}
+
+.inputBx p a {
+  color: #ff3e95;
+}
+
+.checklist {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.checklist p::before {
+  content: "\2716 ";
+  color: red;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.checklist p.valid::before {
+  content: "\2714 ";
+  color: green;
+}
